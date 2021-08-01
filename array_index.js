@@ -1,0 +1,13 @@
+var bookPages = ['hablu', 'bolod', 'chuddogoshti', 'battery', 'peracitamol', 'gymanasium'];
+var batteryIndex = bookPages.indexOf('battery');
+// console.log(batteryIndex);
+var numbers = [45, 54, 32, 534, 434, 66];
+var numbersIndex = numbers.indexOf(333);
+console.log(numbersIndex);
+var secondIndex = numbers[1];
+console.log(secondIndex);
+console.log(numbers);
+numbers[1] = 55;
+console.log(numbers);
+numbers[3] = 55;
+console.log(numbers);
